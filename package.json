@@ -1,0 +1,39 @@
+{
+  "name": "SADIYA-MD",
+  "version": "2.1.2",
+  "description": "Javascript WhatsApp Bot Made By Sadiya Tech",
+  "main": "start.js",
+  "scripts": {
+    "start": "pm2 start start.js --deep-monitoring --attach --name SADIYA-MD",
+    "stop": "pm2 stop SADIYA-MD",
+    "restart": "pm2 restart SADIYA-MD"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "npm:sadiya-tech-baileys@latest",
+    "@adiwajshing/keyed-db": "latest",
+    "@hapi/boom": "^10.0.1",
+    "jimp": "latest",
+    "pino": "latest",
+    "pm2": "latest",
+    "util": "^0.12.4",
+    "mime-types": "latest",
+    "axios": "^1.2.5",
+    "file-type": "^16.5.3",
+    "file_size_url": "^1.0.4",
+    "translate-google-api": "latest",
+    "fs-extra": "latest",
+    "path": "latest",
+    "node-fetch": "^2.6.1",
+    "node-cache": "latest",
+    "megajs": "latest",
+    "qrcode-terminal": "latest",
+    "g-i-s": "latest",
+    "ruhend-scraper": "latest",
+    "express": "latest",
+    "api-dylux": "latest",
+    "adm-zip": "latest",
+    "wa-sticker-formatter": "latest",
+    "moment-timezone": "latest",
+    "yt-search": "latest"
+  }
+}
